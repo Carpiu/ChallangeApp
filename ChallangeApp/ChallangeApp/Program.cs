@@ -1,7 +1,4 @@
-﻿
-using System.Diagnostics.Metrics;
-
-int number = 4566;
+﻿int number = 4566;
 string numberInString = number.ToString();
 char[] letters = numberInString.ToArray();
 
@@ -62,8 +59,11 @@ foreach (char letter in letters)
     }
 }
 
+
 for (int i =0; i<10; i++)
     {
 
     Console.WriteLine(i + "=>" + counter[i]);
     }
+
+
